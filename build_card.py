@@ -78,9 +78,7 @@ def build_structure():
                 {
                     "key": "05", "title": "Ending", "display": {"icon16x16": ICON_ENDING},
                     "tracks": [stream_track("01", "Ending", "ending", "★", ICON_ENDING, duration=40)],
-                },
-            ]
-                },
+},
             ]
         },
         "metadata": {
