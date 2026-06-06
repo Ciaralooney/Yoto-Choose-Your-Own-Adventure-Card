@@ -1,7 +1,7 @@
 # Yoto Jungle Adventure
 
 A branching audio adventure game for the Yoto player.
-A different story every time — turn the knobs to choose your path.
+A different story every time, turn the knobs to choose your path.
 
 ---
 
@@ -19,8 +19,6 @@ After 5 choices → your ending plays
 Insert the card again → completely new story!
 ```
 
----
-
 ## What's included
 
 - **3 complete stories** with 5 decision points each (16 possible endings per story)
@@ -28,9 +26,9 @@ Insert the card again → completely new story!
 - Stories pick randomly on each card insert
 
 Stories included:
-1. **The Lost Baby Elephant** — help a baby elephant find its herd
-2. **The Stolen River Stone** — chase a mischievous otter and discover jungle magic  
-3. **The Night the Jungle Went Dark** — find the missing firefly queen before morning
+1. **The Lost Baby Elephant**, help a baby elephant find its herd
+2. **The Stolen River Stone**, chase a mischievous otter and discover jungle magic  
+3. **The Night the Jungle Went Dark**, find the missing firefly queen before morning
 
 
 ## Setup
@@ -79,9 +77,9 @@ Then in the Yoto app: My Cards → "Jungle Adventure!" → link to a blank MYO c
 ## Adding more stories
 
 Edit `stories.py`. Each story is a dict with:
-- `title` — read aloud at the start
-- `intro` — scene-setting paragraph
-- `nodes` — dict of story nodes, root key always `"1"`
+- `title` , read aloud at the start
+- `intro` , scene-setting paragraph
+- `nodes` , dict of story nodes, root key always `"1"`
 
 Each non-ending node needs:
 ```python
